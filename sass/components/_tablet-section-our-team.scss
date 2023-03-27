@@ -1,0 +1,24 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .section-our-team {
+        .section-our-team__main-title {
+            font-family: $mainFont;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 1.1;
+            text-align: center;
+        }
+
+        .section-our-team__list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .section-our-team__list-item {
+                width: 354px;
+            }
+
+            .section-our-team__list-item > img {
+                width: 354px;
+            }
+        }
+    }
+}

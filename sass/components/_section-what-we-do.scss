@@ -1,0 +1,43 @@
+.section-what-we-do {
+    padding-bottom: 94px;
+
+    .section-what-we-do__main-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        font-family: $mainFont;
+        margin-bottom: 50px;
+    }
+
+    .section-what-we-do__list {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .section-what-we-do__list-item {
+        position: relative;
+
+        .section-what-we-do__list-item-title {
+            position: absolute;
+            background: rgba(47, 48, 58, 0.8);
+            bottom: 0;
+            width: 370px;
+            height: 70px;
+            color: $secondaryTextColor;
+            font-family: $mainFont;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .section-what-we-do__list-item:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .section-our-customers__main-title {
+        font-family: $mainFont;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.1;
+    }
+
+    .section-our-customers__list {
+        display: flex;
+        flex-wrap: wrap;
+
+        .section-our-customers__list-item {
+            width: 226px;
+            height: 92px;
+        }
+    }
+}

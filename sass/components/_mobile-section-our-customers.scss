@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+    .section-our-customers {
+        .section-our-customers__main-title {
+            font-family: $mainFont;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 1.1;
+            letter-spacing: 0.03em;
+            color: $mainTextColor;
+        }
+
+        .section-our-customers__list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .section-our-customers__list-item-link {
+                width: 210px;
+                height: 92px;
+            }
+        }
+    }
+}

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>portfolio</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
+
+        <!-- <link href="./css/styles.css" rel="stylesheet" /> -->
+        <link href="./css/main.min.css" rel="stylesheet" />
+
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+        </style>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+        </style>
+    </head>
+    <body class="body-portfolio">
+        <header class="page-header">
+            <div class="container page-header__section">
+                <a href="./index.html" class="page-header__logo"
+                    ><span class="page-header__logo-text">Web</span>Studio</a
+                >
+
+                <nav class="page-header__navigation">
+                    <ul class="page-header__navigation-list">
+                        <li class="page-header__navigation-list-item">
+                            <!-- stara klasa - navigation -->
+                            <a
+                                href="./index.html"
+                                class="page-header__navigation-link"
+                            >
+                                <!-- pierwsza stara klasa - link-navigation | druga stara klasa - navigation-info -->
+                                Agencja
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="./portfolio.html"
+                                class="page-header__navigation-link page-header__navigation-link--lower-backlight"
+                            >
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#kontakt"
+                                class="page-header__navigation-link"
+                            >
+                                Kontakt
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="page-header__email-and-tel">
+                    <!-- stara klasa - navigation-email-tel -->
+                    <a
+                        href="mailto:info@devstudio.com"
+                        class="page-header__email-and-tel-email page-header__email-and-tel-link"
+                    >
+                        <!-- stare klasy - div-email-icon | link -->
+                        <svg width="16" height="12" class="email-icon">
+                            <use href="./images/icons.svg#icon-koperta"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+
+                    <a
+                        href="tel:48111111111"
+                        class="page-header__email-and-tel-tel page-header__email-and-tel-link"
+                    >
+                        <svg width="10" height="16" class="tel-icon">
+                            <use
+                                href="./images/icons.svg#icon-smartphone"
+                            ></use>
+                        </svg>
+                        +48 111 111 111
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-choice" style="padding: 94px 0">
+                <!-- section -->
+                <div class="container">
+                    <ul class="section-choice__list-button">
+                        <!-- list-button -->
+                        <li>
+                            <button
+                                type="button"
+                                class="section-choice__list-item-button"
+                            >
+                                Wszystkie
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                type="button"
+                                class="section-choice__list-item-button"
+                            >
+                                Strony
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                type="button"
+                                class="section-choice__list-item-button"
+                            >
+                                Aplikacje
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                type="button"
+                                class="section-choice__list-item-button"
+                            >
+                                Dizajn
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                type="button"
+                                class="section-choice__list-item-button"
+                            >
+                                Marketing
+                            </button>
+                        </li>
+                    </ul>
+
+                    <ul class="section-choice__list-pictures">
+                        <li>
+                            <!-- list-pictures-item -->
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <!-- list-pictures-element -->
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio1.jpg"
+                                        alt="laptop z wlaczona przegladarka"
+                                        width="370"
+                                        height="294"
+                                    />
+
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Technocrack
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Strona internetowa</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio2.jpg"
+                                        alt="zawodnicy NBA grajacy w koszykowke"
+                                        width="370"
+                                        height="294"
+                                    />
+
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Grafika New Orlean vs Golden Star
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Dizajn</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio3.jpg"
+                                        alt="logo restauracji na tle z ryba"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Restauracja Seafood
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Aplikacja</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio4.jpg"
+                                        alt="sluchawki"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Projekt Prime
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Marketing</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio5.jpg"
+                                        alt="dwa pudelka obok siebie"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Projekt Boxes
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Aplikacja</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio6.jpg"
+                                        alt="monitor ktory wyswietla rozne informacje"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Inspiration has no borders
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Strona internetowa</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio7.jpg"
+                                        alt="otwarta ksiazka"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Magazyn Limited Edition
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Dizajn</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio8.jpg"
+                                        alt="etykieta"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Projekt LAB
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Marketing</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-pictures-item">
+                            <a
+                                href="#"
+                                class="section-choice__list-pictures-element"
+                            >
+                                <div
+                                    style="position: relative; overflow: hidden"
+                                >
+                                    <img
+                                        src="./images/portfolio9.jpg"
+                                        alt="otwarty laptop a na nim piszace rece"
+                                        width="370"
+                                        height="294"
+                                    />
+                                    <div class="section-choice__animation">
+                                        <p>
+                                            Technoduck is a state-of-the-art
+                                            coronavirus distribution platform.
+                                            Companies use this platform for
+                                            digital espionage and attacks on
+                                            competitors' secure servers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="section-choice__figcaption-portfolio"
+                                >
+                                    <p class="section-choice__picture-title">
+                                        Growing Business
+                                    </p>
+                                    <span
+                                        class="section-choice__second-caption-pictures"
+                                        >Aplikacja</span
+                                    >
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <div class="container page-footer__main-div">
+                <!-- div-logo-bottom-and-information-bottom -->
+                <div class="page-footer__logo-address-email-tel">
+                    <!-- div-logo-bottom -->
+                    <a href="./index.html" class="page-footer__logo-bottom"
+                        ><span class="page-footer__logo-text-bottom">Web</span
+                        >Studio</a
+                    >
+
+                    <address>m. Warszawa, Aleje Jerozolimskie 21<br /></address>
+                    <a href="mailto:info@example.com" class="page-footer__link"
+                        >info@example.com</a
+                    ><br />
+                    <a href="tel:48111111111" class="page-footer__link"
+                        >+48 111 111 111</a
+                    >
+                </div>
+
+                <div class="page-footer__div-icon">
+                    <p class="page-footer__div-icon-main-title">
+                        Dołącz do nas
+                    </p>
+                    <!-- text-bottom -->
+
+                    <ul class="page-footer__list">
+                        <!-- icon-bottom -->
+                        <li class="page-footer__list-icon">
+                            <!-- icon-social-media-instagram-bottom -->
+                            <a class="page-footer__list-icon" href="#">
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    class="page-footer__icon"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page-footer__list-icon">
+                            <a class="page-footer__list-icon" href="#">
+                                <svg
+                                    width="20"
+                                    height="16.25"
+                                    class="page-footer__icon"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-twitter"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page-footer__list-icon">
+                            <a class="page-footer__list-icon" href="#">
+                                <svg
+                                    width="10"
+                                    height="20"
+                                    class="page-footer__icon"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="page-footer__list-icon">
+                            <a class="page-footer__list-icon" href="#">
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    class="page-footer__icon"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-linkedin2"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="page-footer__div-records">
+                    <p class="page-footer__main-title">
+                        zapisz się do newslettera
+                    </p>
+                    <!-- text-bottom -->
+
+                    <form class="page-footer__form">
+                        <!-- form -->
+                        <label>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="E-mail"
+                                class="page-footer__form-email"
+                            />
+                            <!-- form-email -->
+                        </label>
+                        <button type="submit" class="page-footer__form-button">
+                            <p class="page-footer__form-button-title">
+                                Zapisz się
+                            </p>
+                            <!-- form-button-title -->
+                            <svg>
+                                <use
+                                    width="24"
+                                    height="24"
+                                    x="148"
+                                    y="13"
+                                    href="./images/icons.svg#icon-send"
+                                ></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

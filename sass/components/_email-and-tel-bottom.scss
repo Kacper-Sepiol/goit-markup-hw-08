@@ -1,0 +1,22 @@
+.page-footer__link {
+    text-decoration: none;
+    font-family: $mainFont;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.003em;
+    color: $ouwerTextColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: $acentColor;
+    }
+
+    &:focus {
+        color: $acentColor;
+    }
+}
+
+.page-footer__link:not(:last-child) {
+    margin-bottom: 9px;
+}

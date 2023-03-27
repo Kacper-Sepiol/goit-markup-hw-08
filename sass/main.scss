@@ -1,0 +1,97 @@
+@import "./utils/_vars";
+@import "./components/_page-header";
+@import "./components/_logo";
+@import "./components/navigation";
+@import "./components/email-and-tel";
+@import "./components/section-main-title";
+@import "./components/section-four-icon";
+@import "./components/section-what-we-do";
+@import "./components/section-our-team";
+@import "./components/section-our-customers";
+@import "./components/page-footer";
+@import "./components/email-and-tel-bottom";
+@import "./components/div-icon-bottom";
+@import "./components/logo-bottom";
+@import "./components/div-records-bottom";
+@import "./components/modal-window";
+@import "./components/modal-window-form";
+@import "./components/_section-choice";
+@import "./components/_mobile-page-header";
+@import "./components/_mobile-section-four-icon";
+@import "./components/_mobile-section-what-we-do";
+@import "./components/_mobile-section-our-team";
+@import "./components/_mobile-section-our-customers";
+@import "./components/_mobile-page-footer";
+@import "./components/_mobile-div-records-bottom";
+@import "./components/_mobile-section-main-title";
+@import "./components/_mobile-modal-window";
+@import "./components/_mobile-window-form";
+@import "./components/_tablet-page-header";
+@import "./components/_tablet-section-main-title";
+@import "./components/_tablet-section-four-icon";
+@import "./components/_tablet-section-what-we-do";
+@import "./components/_tablet-section-our-team";
+@import "./components/_tablet-section-our-customers";
+@import "./components/_tablet-page-footer";
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 1px) and (max-width: 480px) {
+    .container {
+        min-width: 1px;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        min-width: 481px;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}

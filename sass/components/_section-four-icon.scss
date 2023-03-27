@@ -1,0 +1,67 @@
+.section-four-icon {
+    padding: 94px 0;
+
+    .section-four-icon__list {
+        display: flex;
+
+        .section-four-icon__list-item:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        .section-four-icon__list-item-icon {
+            width: 270px;
+            height: 120px;
+            background-color: $buttonsPortColor;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section-four-icon__list-item-main-title {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 1.15;
+            font-family: $mainFont;
+            color: $mainTextColor;
+            margin-top: 30px;
+        }
+
+        .section-four-icon__list-item-title {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.5;
+            font-family: $mainFont;
+            color: $ouwerTextColor;
+            margin-top: 10px;
+            letter-spacing: 0.03em;
+        }
+    }
+
+    .clock {
+        width: 270px;
+        height: 120px;
+        background-color: #f5f4fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .computer {
+        width: 270px;
+        height: 120px;
+        background-color: #f5f4fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .astronaut {
+        width: 270px;
+        height: 120px;
+        background-color: #f5f4fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

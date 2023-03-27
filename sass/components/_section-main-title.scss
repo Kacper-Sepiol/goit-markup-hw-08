@@ -1,0 +1,42 @@
+.section-first {
+    background-color: $backgroundFooterColor;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+
+    .section-first__main-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.37;
+        color: $backgroundColor;
+        text-align: center;
+        width: 650px;
+        margin: 0 auto;
+        font-family: $mainFont;
+    }
+
+    .section-first__main-title-button {
+        color: $secondaryTextColor;
+        background-color: $acentColor;
+        border: 1px;
+        font-size: 16px;
+        line-height: 1.6;
+        cursor: pointer;
+        border-radius: 4px;
+        min-width: 200px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: $mainFont;
+        padding: 12px 42px;
+    }
+}

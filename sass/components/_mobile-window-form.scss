@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+    .modal-window {
+        .window-modal__form-textarea {
+            width: 370px;
+            height: 120px;
+        }
+
+        .modal-window__form-input-statute-title {
+            font-family: $mainFont;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.1;
+            padding-left: 8px;
+        }
+    }
+}

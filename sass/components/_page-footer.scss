@@ -1,0 +1,21 @@
+.page-footer__main-div {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.page-footer {
+    background-color: $backgroundFooterColor;
+    padding: 60px 0;
+}
+
+address {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}

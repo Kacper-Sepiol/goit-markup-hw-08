@@ -1,0 +1,138 @@
+.modal-window {
+    .modal-window__form-modal {
+        display: flex;
+        flex-direction: column;
+
+        .modal-window__form-label {
+            display: flex;
+            flex-direction: column;
+
+            .modal-window__form-input-title {
+                font-weight: 400;
+                font-size: 12px;
+                color: $ouwerTextColor;
+                margin-bottom: 4px;
+            }
+        }
+
+        .modal-window__form-label:nth-child(2) {
+            margin-top: 10px;
+        }
+
+        .modal-window__form-label:nth-child(3) {
+            margin-top: 10px;
+        }
+
+        .modal-window__form-label:nth-child(4) {
+            margin-top: 10px;
+        }
+    }
+
+    .first-icon-modal {
+        position: absolute;
+        left: 15px;
+        top: 14px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .two-icon-modal {
+        position: absolute;
+        top: 13.26px;
+        left: 14.27px;
+        width: 12px;
+        height: 13px;
+    }
+
+    .three-icon-modal {
+        position: absolute;
+        left: 13.5px;
+        top: 14px;
+        width: 15px;
+        height: 12px;
+    }
+
+    .modal-window__form-input-statute {
+        position: absolute;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+    }
+
+    .modal-window__form-button-service {
+        width: 200px;
+        height: 50px;
+        background-color: $acentColor;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        margin-top: 30px;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 16px;
+        color: $secondaryTextColor;
+    }
+
+    .modal-window__form-input-statute-icon {
+        color: $ouwerTextColor;
+        position: absolute;
+        overflow: hidden;
+        background-color: $backgroundColor;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 16px;
+        height: 15px;
+        bottom: 130px;
+        left: 54px;
+        border-radius: 2px;
+        border: 1px solid $mainTextColor;
+    }
+
+    .modal-window__form-input-statute-title {
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        margin-bottom: 30px;
+        color: $ouwerTextColor;
+    }
+
+    .modal-window__form-input-statute:checked
+        + .modal-window__form-input-statute-icon {
+        background-color: $acentColor;
+        border: 1px solid $acentColor;
+    }
+
+    .modal-window__form-input:focus-within {
+        border-color: $acentColor;
+    }
+
+    .window-modal__form-textarea:focus-within {
+        border-color: $acentColor;
+    }
+
+    .modal-window__link-statute {
+        color: $acentColor;
+    }
+
+    .modal-window__form-input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        padding-left: 42px;
+        padding-right: 406;
+        outline: none;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .window-modal__form-textarea {
+        width: 448px;
+        height: 120px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        padding: 12px 16px;
+        outline: none;
+        resize: none;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
