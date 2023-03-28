@@ -4,12 +4,9 @@
         flex-direction: column;
         justify-content: center;
 
-        .page-footer__main-title {
-            text-align: center;
-        }
-
         .page-footer__form {
             flex-direction: column;
+            justify-content: center;
 
             .page-footer__form-email {
                 width: 100%;
@@ -23,6 +20,6 @@
     }
 
     .page-footer__div-records > p {
-        margin-left: 137px;
+        justify-content: center;
     }
 }
