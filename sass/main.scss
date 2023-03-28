@@ -35,24 +35,20 @@
 @import "./components/_tablet-page-footer";
 
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
-}
 
-@media screen and (min-width: 1px) and (max-width: 480px) {
-    .container {
-        min-width: 1px;
-        max-width: 480px;
-        margin: 0 auto;
+    @media screen and (min-width: 480px) {
+        width: 480px;
     }
-}
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .container {
-        min-width: 481px;
-        max-width: 768px;
-        margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
     }
 }
 

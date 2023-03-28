@@ -12,6 +12,7 @@
         .section-our-customers__list {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
 
             .section-our-customers__list-item-link {
                 width: 210px;
