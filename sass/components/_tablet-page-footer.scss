@@ -5,11 +5,13 @@
 
     .page-footer__main-div {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
     }
 
     .page-footer__tablet {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 }
