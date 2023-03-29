@@ -10,6 +10,7 @@
         .section-our-team__list {
             display: flex;
             flex-direction: column;
+            text-align: center;
 
             .section-our-team__list-item {
                 & > img {

@@ -23,3 +23,10 @@
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .page-footer__form-email {
+        width: 480px;
+        height: 50px;
+    }
+}
