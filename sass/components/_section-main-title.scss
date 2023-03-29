@@ -1,16 +1,17 @@
 .section-first {
     background-color: $backgroundFooterColor;
-    max-width: 480px;
-    height: 400px;
+    max-width: 16000px;
+    height: 600px;
     margin: 0 auto;
     background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
         url("../images/img.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 118px 0;
+    padding: 200px 0;
 
     .section-first__main-title {
         font-weight: 900;
@@ -38,5 +39,17 @@
         font-weight: 700;
         font-family: $mainFont;
         padding: 12px 42px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .section-first {
+        background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),
+            url("../images/img@2x.jpg");
     }
 }
