@@ -71,6 +71,10 @@
     transition: transform 250ms ease-in-out;
 }
 
+.icon-x-mobile-window:hover {
+    fill: $acentColor;
+}
+
 .menu-container.is-open {
     transform: translateX(0);
 }
