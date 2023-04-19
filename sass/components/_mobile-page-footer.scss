@@ -4,7 +4,10 @@
         flex-direction: column;
 
         .page-footer__logo-bottom {
+            display: flex;
             justify-content: center;
+            align-items: center;
+            text-align: center;
         }
 
         .page-footer__logo-address-email-tel-mobile {
