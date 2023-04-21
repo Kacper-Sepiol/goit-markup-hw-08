@@ -13,6 +13,16 @@
         .page-footer__logo-address-email-tel-mobile {
             text-align: center;
         }
+
+        .page-footer__tablet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page-footer__div-icon {
+            margin-top: 60px;
+        }
     }
 }
 
